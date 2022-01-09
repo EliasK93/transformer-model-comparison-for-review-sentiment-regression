@@ -1,0 +1,342 @@
+2022-01-05 17:14:29,123 ----------------------------------------------------------------------------------------------------
+2022-01-05 17:14:29,124 Model: "TextRegressor(
+  (document_embeddings): TransformerDocumentEmbeddings(
+    (model): XLNetModel(
+      (word_embedding): Embedding(32000, 768)
+      (layer): ModuleList(
+        (0): XLNetLayer(
+          (rel_attn): XLNetRelativeAttention(
+            (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (ff): XLNetFeedForward(
+            (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+            (layer_1): Linear(in_features=768, out_features=3072, bias=True)
+            (layer_2): Linear(in_features=3072, out_features=768, bias=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (1): XLNetLayer(
+          (rel_attn): XLNetRelativeAttention(
+            (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (ff): XLNetFeedForward(
+            (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+            (layer_1): Linear(in_features=768, out_features=3072, bias=True)
+            (layer_2): Linear(in_features=3072, out_features=768, bias=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (2): XLNetLayer(
+          (rel_attn): XLNetRelativeAttention(
+            (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (ff): XLNetFeedForward(
+            (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+            (layer_1): Linear(in_features=768, out_features=3072, bias=True)
+            (layer_2): Linear(in_features=3072, out_features=768, bias=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (3): XLNetLayer(
+          (rel_attn): XLNetRelativeAttention(
+            (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (ff): XLNetFeedForward(
+            (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+            (layer_1): Linear(in_features=768, out_features=3072, bias=True)
+            (layer_2): Linear(in_features=3072, out_features=768, bias=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (4): XLNetLayer(
+          (rel_attn): XLNetRelativeAttention(
+            (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (ff): XLNetFeedForward(
+            (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+            (layer_1): Linear(in_features=768, out_features=3072, bias=True)
+            (layer_2): Linear(in_features=3072, out_features=768, bias=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (5): XLNetLayer(
+          (rel_attn): XLNetRelativeAttention(
+            (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (ff): XLNetFeedForward(
+            (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+            (layer_1): Linear(in_features=768, out_features=3072, bias=True)
+            (layer_2): Linear(in_features=3072, out_features=768, bias=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (6): XLNetLayer(
+          (rel_attn): XLNetRelativeAttention(
+            (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (ff): XLNetFeedForward(
+            (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+            (layer_1): Linear(in_features=768, out_features=3072, bias=True)
+            (layer_2): Linear(in_features=3072, out_features=768, bias=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (7): XLNetLayer(
+          (rel_attn): XLNetRelativeAttention(
+            (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (ff): XLNetFeedForward(
+            (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+            (layer_1): Linear(in_features=768, out_features=3072, bias=True)
+            (layer_2): Linear(in_features=3072, out_features=768, bias=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (8): XLNetLayer(
+          (rel_attn): XLNetRelativeAttention(
+            (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (ff): XLNetFeedForward(
+            (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+            (layer_1): Linear(in_features=768, out_features=3072, bias=True)
+            (layer_2): Linear(in_features=3072, out_features=768, bias=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (9): XLNetLayer(
+          (rel_attn): XLNetRelativeAttention(
+            (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (ff): XLNetFeedForward(
+            (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+            (layer_1): Linear(in_features=768, out_features=3072, bias=True)
+            (layer_2): Linear(in_features=3072, out_features=768, bias=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (10): XLNetLayer(
+          (rel_attn): XLNetRelativeAttention(
+            (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (ff): XLNetFeedForward(
+            (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+            (layer_1): Linear(in_features=768, out_features=3072, bias=True)
+            (layer_2): Linear(in_features=3072, out_features=768, bias=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (11): XLNetLayer(
+          (rel_attn): XLNetRelativeAttention(
+            (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (ff): XLNetFeedForward(
+            (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+            (layer_1): Linear(in_features=768, out_features=3072, bias=True)
+            (layer_2): Linear(in_features=3072, out_features=768, bias=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+      )
+      (dropout): Dropout(p=0.1, inplace=False)
+    )
+  )
+  (decoder): Linear(in_features=768, out_features=1, bias=True)
+  (loss_function): MSELoss()
+)"
+2022-01-05 17:14:29,131 ----------------------------------------------------------------------------------------------------
+2022-01-05 17:14:29,131 Corpus: "Corpus: 4275 train + 475 dev + 250 test sentences"
+2022-01-05 17:14:29,131 ----------------------------------------------------------------------------------------------------
+2022-01-05 17:14:29,131 Parameters:
+2022-01-05 17:14:29,132  - learning_rate: "5e-05"
+2022-01-05 17:14:29,132  - mini_batch_size: "2"
+2022-01-05 17:14:29,132  - patience: "3"
+2022-01-05 17:14:29,132  - anneal_factor: "0.5"
+2022-01-05 17:14:29,132  - max_epochs: "10"
+2022-01-05 17:14:29,132  - shuffle: "True"
+2022-01-05 17:14:29,132  - train_with_dev: "False"
+2022-01-05 17:14:29,132  - batch_growth_annealing: "False"
+2022-01-05 17:14:29,132 ----------------------------------------------------------------------------------------------------
+2022-01-05 17:14:29,132 Model training base path: "models\xlnet-base-cased"
+2022-01-05 17:14:29,132 ----------------------------------------------------------------------------------------------------
+2022-01-05 17:14:29,132 Device: cuda:0
+2022-01-05 17:14:29,132 ----------------------------------------------------------------------------------------------------
+2022-01-05 17:14:29,132 Embeddings storage mode: gpu
+2022-01-05 17:14:29,137 ----------------------------------------------------------------------------------------------------
+2022-01-05 17:15:29,403 epoch 1 - iter 213/2138 - loss 9.40681521 - samples/sec: 8.57 - lr: 0.000005
+2022-01-05 17:16:19,588 epoch 1 - iter 426/2138 - loss 5.70933176 - samples/sec: 8.57 - lr: 0.000010
+2022-01-05 17:17:07,919 epoch 1 - iter 639/2138 - loss 4.42476059 - samples/sec: 8.90 - lr: 0.000015
+2022-01-05 17:17:57,466 epoch 1 - iter 852/2138 - loss 3.67065670 - samples/sec: 8.68 - lr: 0.000020
+2022-01-05 17:18:43,745 epoch 1 - iter 1065/2138 - loss 3.18692138 - samples/sec: 9.28 - lr: 0.000025
+2022-01-05 17:19:32,090 epoch 1 - iter 1278/2138 - loss 2.90834281 - samples/sec: 8.89 - lr: 0.000030
+2022-01-05 17:20:19,289 epoch 1 - iter 1491/2138 - loss 2.66675604 - samples/sec: 9.11 - lr: 0.000035
+2022-01-05 17:21:09,613 epoch 1 - iter 1704/2138 - loss 2.51091203 - samples/sec: 8.54 - lr: 0.000040
+2022-01-05 17:22:01,037 epoch 1 - iter 1917/2138 - loss 2.39479150 - samples/sec: 8.35 - lr: 0.000045
+2022-01-05 17:22:53,375 epoch 1 - iter 2130/2138 - loss 2.29711812 - samples/sec: 8.22 - lr: 0.000050
+2022-01-05 17:22:55,892 ----------------------------------------------------------------------------------------------------
+2022-01-05 17:22:55,892 EPOCH 1 done: loss 4908.4987 - lr 0.0000500
+2022-01-05 17:23:27,620 DEV : loss 1.4872695207595825 - f1-score (micro avg)  0.7379
+2022-01-05 17:23:29,099 BAD EPOCHS (no improvement): 4
+2022-01-05 17:23:29,100 ----------------------------------------------------------------------------------------------------
+2022-01-05 17:24:28,078 epoch 2 - iter 213/2138 - loss 1.51986163 - samples/sec: 8.89 - lr: 0.000049
+2022-01-05 17:25:18,455 epoch 2 - iter 426/2138 - loss 1.44695577 - samples/sec: 8.54 - lr: 0.000049
+2022-01-05 17:26:09,114 epoch 2 - iter 639/2138 - loss 1.50681906 - samples/sec: 8.47 - lr: 0.000048
+2022-01-05 17:26:59,508 epoch 2 - iter 852/2138 - loss 1.40990414 - samples/sec: 8.52 - lr: 0.000048
+2022-01-05 17:27:49,789 epoch 2 - iter 1065/2138 - loss 1.36653989 - samples/sec: 8.53 - lr: 0.000047
+2022-01-05 17:28:44,588 epoch 2 - iter 1278/2138 - loss 1.30272167 - samples/sec: 7.85 - lr: 0.000047
+2022-01-05 17:29:42,970 epoch 2 - iter 1491/2138 - loss 1.24588807 - samples/sec: 7.37 - lr: 0.000046
+2022-01-05 17:30:36,352 epoch 2 - iter 1704/2138 - loss 1.22491633 - samples/sec: 8.05 - lr: 0.000046
+2022-01-05 17:31:30,404 epoch 2 - iter 1917/2138 - loss 1.20073363 - samples/sec: 7.95 - lr: 0.000045
+2022-01-05 17:32:25,299 epoch 2 - iter 2130/2138 - loss 1.17508189 - samples/sec: 7.82 - lr: 0.000044
+2022-01-05 17:32:27,183 ----------------------------------------------------------------------------------------------------
+2022-01-05 17:32:27,183 EPOCH 2 done: loss 2505.1954 - lr 0.0000444
+2022-01-05 17:33:01,534 DEV : loss 0.37227463722229004 - f1-score (micro avg)  0.8229
+2022-01-05 17:33:03,092 BAD EPOCHS (no improvement): 4
+2022-01-05 17:33:03,093 ----------------------------------------------------------------------------------------------------
+2022-01-05 17:34:04,086 epoch 3 - iter 213/2138 - loss 0.65645852 - samples/sec: 8.67 - lr: 0.000044
+2022-01-05 17:34:55,561 epoch 3 - iter 426/2138 - loss 0.65730018 - samples/sec: 8.36 - lr: 0.000043
+2022-01-05 17:35:50,190 epoch 3 - iter 639/2138 - loss 0.69933102 - samples/sec: 7.87 - lr: 0.000043
+2022-01-05 17:36:44,422 epoch 3 - iter 852/2138 - loss 0.69399019 - samples/sec: 7.92 - lr: 0.000042
+2022-01-05 17:37:36,168 epoch 3 - iter 1065/2138 - loss 0.69460687 - samples/sec: 8.30 - lr: 0.000042
+2022-01-05 17:38:29,896 epoch 3 - iter 1278/2138 - loss 0.68496591 - samples/sec: 8.00 - lr: 0.000041
+2022-01-05 17:39:20,202 epoch 3 - iter 1491/2138 - loss 0.68395458 - samples/sec: 8.55 - lr: 0.000041
+2022-01-05 17:40:11,428 epoch 3 - iter 1704/2138 - loss 0.69587614 - samples/sec: 8.39 - lr: 0.000040
+2022-01-05 17:41:00,790 epoch 3 - iter 1917/2138 - loss 0.69549220 - samples/sec: 8.70 - lr: 0.000039
+2022-01-05 17:41:51,847 epoch 3 - iter 2130/2138 - loss 0.70395569 - samples/sec: 8.43 - lr: 0.000039
+2022-01-05 17:41:54,176 ----------------------------------------------------------------------------------------------------
+2022-01-05 17:41:54,176 EPOCH 3 done: loss 1502.5957 - lr 0.0000389
+2022-01-05 17:42:26,712 DEV : loss 0.334148108959198 - f1-score (micro avg)  0.8765
+2022-01-05 17:42:28,196 BAD EPOCHS (no improvement): 4
+2022-01-05 17:42:28,197 ----------------------------------------------------------------------------------------------------
+2022-01-05 17:43:34,164 epoch 4 - iter 213/2138 - loss 0.57177457 - samples/sec: 7.79 - lr: 0.000038
+2022-01-05 17:44:26,016 epoch 4 - iter 426/2138 - loss 0.55828332 - samples/sec: 8.29 - lr: 0.000038
+2022-01-05 17:45:16,021 epoch 4 - iter 639/2138 - loss 0.55506893 - samples/sec: 8.60 - lr: 0.000037
+2022-01-05 17:46:06,095 epoch 4 - iter 852/2138 - loss 0.55970390 - samples/sec: 8.59 - lr: 0.000037
+2022-01-05 17:46:57,129 epoch 4 - iter 1065/2138 - loss 0.55590310 - samples/sec: 8.41 - lr: 0.000036
+2022-01-05 17:47:45,079 epoch 4 - iter 1278/2138 - loss 0.55414868 - samples/sec: 8.97 - lr: 0.000036
+2022-01-05 17:48:35,691 epoch 4 - iter 1491/2138 - loss 0.54663303 - samples/sec: 8.49 - lr: 0.000035
+2022-01-05 17:49:25,708 epoch 4 - iter 1704/2138 - loss 0.53971827 - samples/sec: 8.58 - lr: 0.000034
+2022-01-05 17:50:16,255 epoch 4 - iter 1917/2138 - loss 0.52964915 - samples/sec: 8.50 - lr: 0.000034
+2022-01-05 17:51:08,206 epoch 4 - iter 2130/2138 - loss 0.52752259 - samples/sec: 8.27 - lr: 0.000033
+2022-01-05 17:51:10,313 ----------------------------------------------------------------------------------------------------
+2022-01-05 17:51:10,313 EPOCH 4 done: loss 1127.5824 - lr 0.0000333
+2022-01-05 17:51:44,280 DEV : loss 0.30517035722732544 - f1-score (micro avg)  0.8853
+2022-01-05 17:51:45,927 BAD EPOCHS (no improvement): 4
+2022-01-05 17:51:45,928 ----------------------------------------------------------------------------------------------------
+2022-01-05 17:52:48,074 epoch 5 - iter 213/2138 - loss 0.43625456 - samples/sec: 8.38 - lr: 0.000033
+2022-01-05 17:53:39,005 epoch 5 - iter 426/2138 - loss 0.38713158 - samples/sec: 8.43 - lr: 0.000032
+2022-01-05 17:54:31,712 epoch 5 - iter 639/2138 - loss 0.36275951 - samples/sec: 8.16 - lr: 0.000032
+2022-01-05 17:55:23,943 epoch 5 - iter 852/2138 - loss 0.36290513 - samples/sec: 8.22 - lr: 0.000031
+2022-01-05 17:56:16,371 epoch 5 - iter 1065/2138 - loss 0.35879401 - samples/sec: 8.20 - lr: 0.000031
+2022-01-05 17:57:08,573 epoch 5 - iter 1278/2138 - loss 0.36612534 - samples/sec: 8.23 - lr: 0.000030
+2022-01-05 17:57:59,611 epoch 5 - iter 1491/2138 - loss 0.36387345 - samples/sec: 8.42 - lr: 0.000029
+2022-01-05 17:58:52,095 epoch 5 - iter 1704/2138 - loss 0.35971958 - samples/sec: 8.18 - lr: 0.000029
+2022-01-05 17:59:39,061 epoch 5 - iter 1917/2138 - loss 0.35452141 - samples/sec: 9.15 - lr: 0.000028
+2022-01-05 18:00:29,474 epoch 5 - iter 2130/2138 - loss 0.35706282 - samples/sec: 8.53 - lr: 0.000028
+2022-01-05 18:00:32,189 ----------------------------------------------------------------------------------------------------
+2022-01-05 18:00:32,189 EPOCH 5 done: loss 764.9522 - lr 0.0000278
+2022-01-05 18:01:05,762 DEV : loss 0.2828645706176758 - f1-score (micro avg)  0.8828
+2022-01-05 18:01:07,250 BAD EPOCHS (no improvement): 4
+2022-01-05 18:01:07,250 ----------------------------------------------------------------------------------------------------
+2022-01-05 18:02:09,629 epoch 6 - iter 213/2138 - loss 0.27585871 - samples/sec: 8.34 - lr: 0.000027
+2022-01-05 18:03:00,408 epoch 6 - iter 426/2138 - loss 0.25638266 - samples/sec: 8.47 - lr: 0.000027
+2022-01-05 18:03:53,989 epoch 6 - iter 639/2138 - loss 0.25899099 - samples/sec: 8.01 - lr: 0.000026
+2022-01-05 18:04:47,570 epoch 6 - iter 852/2138 - loss 0.25926994 - samples/sec: 8.02 - lr: 0.000026
+2022-01-05 18:05:38,308 epoch 6 - iter 1065/2138 - loss 0.25238655 - samples/sec: 8.48 - lr: 0.000025
+2022-01-05 18:06:29,339 epoch 6 - iter 1278/2138 - loss 0.25210790 - samples/sec: 8.41 - lr: 0.000024
+2022-01-05 18:07:17,177 epoch 6 - iter 1491/2138 - loss 0.25353691 - samples/sec: 8.97 - lr: 0.000024
+2022-01-05 18:08:07,923 epoch 6 - iter 1704/2138 - loss 0.24806074 - samples/sec: 8.47 - lr: 0.000023
+2022-01-05 18:09:01,601 epoch 6 - iter 1917/2138 - loss 0.24771267 - samples/sec: 8.02 - lr: 0.000023
+2022-01-05 18:09:49,598 epoch 6 - iter 2130/2138 - loss 0.24515435 - samples/sec: 8.95 - lr: 0.000022
+2022-01-05 18:09:51,838 ----------------------------------------------------------------------------------------------------
+2022-01-05 18:09:51,838 EPOCH 6 done: loss 523.2423 - lr 0.0000222
+2022-01-05 18:10:24,866 DEV : loss 0.23651494085788727 - f1-score (micro avg)  0.8959
+2022-01-05 18:10:26,307 BAD EPOCHS (no improvement): 4
+2022-01-05 18:10:26,310 ----------------------------------------------------------------------------------------------------
+2022-01-05 18:11:30,234 epoch 7 - iter 213/2138 - loss 0.15701487 - samples/sec: 8.10 - lr: 0.000022
+2022-01-05 18:12:23,122 epoch 7 - iter 426/2138 - loss 0.15582550 - samples/sec: 8.12 - lr: 0.000021
+2022-01-05 18:13:14,187 epoch 7 - iter 639/2138 - loss 0.17670377 - samples/sec: 8.42 - lr: 0.000021
+2022-01-05 18:14:06,509 epoch 7 - iter 852/2138 - loss 0.17340882 - samples/sec: 8.22 - lr: 0.000020
+2022-01-05 18:14:57,197 epoch 7 - iter 1065/2138 - loss 0.17668053 - samples/sec: 8.48 - lr: 0.000019
+2022-01-05 18:15:47,201 epoch 7 - iter 1278/2138 - loss 0.17830278 - samples/sec: 8.60 - lr: 0.000019
+2022-01-05 18:16:38,295 epoch 7 - iter 1491/2138 - loss 0.18140433 - samples/sec: 8.40 - lr: 0.000018
+2022-01-05 18:17:26,791 epoch 7 - iter 1704/2138 - loss 0.17516271 - samples/sec: 8.87 - lr: 0.000018
+2022-01-05 18:18:20,317 epoch 7 - iter 1917/2138 - loss 0.17476551 - samples/sec: 8.01 - lr: 0.000017
+2022-01-05 18:19:10,832 epoch 7 - iter 2130/2138 - loss 0.17197311 - samples/sec: 8.51 - lr: 0.000017
+2022-01-05 18:19:13,571 ----------------------------------------------------------------------------------------------------
+2022-01-05 18:19:13,571 EPOCH 7 done: loss 368.2091 - lr 0.0000167
+2022-01-05 18:19:46,616 DEV : loss 0.23273926973342896 - f1-score (micro avg)  0.8986
+2022-01-05 18:19:48,264 BAD EPOCHS (no improvement): 4
+2022-01-05 18:19:48,264 ----------------------------------------------------------------------------------------------------
+2022-01-05 18:20:49,179 epoch 8 - iter 213/2138 - loss 0.08869603 - samples/sec: 8.66 - lr: 0.000016
+2022-01-05 18:21:42,659 epoch 8 - iter 426/2138 - loss 0.10715138 - samples/sec: 8.04 - lr: 0.000016
+2022-01-05 18:22:33,705 epoch 8 - iter 639/2138 - loss 0.10367318 - samples/sec: 8.41 - lr: 0.000015
+2022-01-05 18:23:23,079 epoch 8 - iter 852/2138 - loss 0.11337902 - samples/sec: 8.71 - lr: 0.000014
+2022-01-05 18:24:18,243 epoch 8 - iter 1065/2138 - loss 0.11055944 - samples/sec: 7.79 - lr: 0.000014
+2022-01-05 18:25:13,728 epoch 8 - iter 1278/2138 - loss 0.11886460 - samples/sec: 7.74 - lr: 0.000013
+2022-01-05 18:26:06,546 epoch 8 - iter 1491/2138 - loss 0.11734403 - samples/sec: 8.14 - lr: 0.000013
+2022-01-05 18:26:57,815 epoch 8 - iter 1704/2138 - loss 0.11375722 - samples/sec: 8.38 - lr: 0.000012
+2022-01-05 18:27:48,016 epoch 8 - iter 1917/2138 - loss 0.11539706 - samples/sec: 8.55 - lr: 0.000012
+2022-01-05 18:28:36,971 epoch 8 - iter 2130/2138 - loss 0.11635839 - samples/sec: 8.79 - lr: 0.000011
+2022-01-05 18:28:39,296 ----------------------------------------------------------------------------------------------------
+2022-01-05 18:28:39,296 EPOCH 8 done: loss 249.0524 - lr 0.0000111
+2022-01-05 18:29:12,161 DEV : loss 0.22507403790950775 - f1-score (micro avg)  0.8899
+2022-01-05 18:29:13,634 BAD EPOCHS (no improvement): 4
+2022-01-05 18:29:13,635 ----------------------------------------------------------------------------------------------------
+2022-01-05 18:30:12,100 epoch 9 - iter 213/2138 - loss 0.08130090 - samples/sec: 9.01 - lr: 0.000011
+2022-01-05 18:31:02,515 epoch 9 - iter 426/2138 - loss 0.08219354 - samples/sec: 8.52 - lr: 0.000010
+2022-01-05 18:31:55,887 epoch 9 - iter 639/2138 - loss 0.07658755 - samples/sec: 8.05 - lr: 0.000009
+2022-01-05 18:32:47,239 epoch 9 - iter 852/2138 - loss 0.07712046 - samples/sec: 8.37 - lr: 0.000009
+2022-01-05 18:33:39,427 epoch 9 - iter 1065/2138 - loss 0.07749036 - samples/sec: 8.23 - lr: 0.000008
+2022-01-05 18:34:27,644 epoch 9 - iter 1278/2138 - loss 0.07703936 - samples/sec: 8.91 - lr: 0.000008
+2022-01-05 18:35:19,906 epoch 9 - iter 1491/2138 - loss 0.07808722 - samples/sec: 8.22 - lr: 0.000007
+2022-01-05 18:36:07,873 epoch 9 - iter 1704/2138 - loss 0.07730653 - samples/sec: 8.96 - lr: 0.000007
+2022-01-05 18:37:00,506 epoch 9 - iter 1917/2138 - loss 0.08239047 - samples/sec: 8.16 - lr: 0.000006
+2022-01-05 18:37:50,221 epoch 9 - iter 2130/2138 - loss 0.07914752 - samples/sec: 8.64 - lr: 0.000006
+2022-01-05 18:37:52,123 ----------------------------------------------------------------------------------------------------
+2022-01-05 18:37:52,123 EPOCH 9 done: loss 168.7024 - lr 0.0000056
+2022-01-05 18:38:24,598 DEV : loss 0.23617707192897797 - f1-score (micro avg)  0.9024
+2022-01-05 18:38:26,123 BAD EPOCHS (no improvement): 4
+2022-01-05 18:38:26,123 ----------------------------------------------------------------------------------------------------
+2022-01-05 18:39:25,824 epoch 10 - iter 213/2138 - loss 0.08174168 - samples/sec: 8.77 - lr: 0.000005
+2022-01-05 18:40:14,492 epoch 10 - iter 426/2138 - loss 0.06772776 - samples/sec: 8.84 - lr: 0.000004
+2022-01-05 18:41:04,911 epoch 10 - iter 639/2138 - loss 0.06484326 - samples/sec: 8.53 - lr: 0.000004
+2022-01-05 18:41:54,832 epoch 10 - iter 852/2138 - loss 0.06230382 - samples/sec: 8.61 - lr: 0.000003
+2022-01-05 18:42:45,152 epoch 10 - iter 1065/2138 - loss 0.05799858 - samples/sec: 8.54 - lr: 0.000003
+2022-01-05 18:43:34,104 epoch 10 - iter 1278/2138 - loss 0.05808973 - samples/sec: 8.78 - lr: 0.000002
+2022-01-05 18:44:25,900 epoch 10 - iter 1491/2138 - loss 0.05700261 - samples/sec: 8.29 - lr: 0.000002
+2022-01-05 18:45:14,248 epoch 10 - iter 1704/2138 - loss 0.05420570 - samples/sec: 8.89 - lr: 0.000001
+2022-01-05 18:46:08,434 epoch 10 - iter 1917/2138 - loss 0.05299189 - samples/sec: 7.93 - lr: 0.000001
+2022-01-05 18:47:01,122 epoch 10 - iter 2130/2138 - loss 0.05063710 - samples/sec: 8.14 - lr: 0.000000
+2022-01-05 18:47:03,287 ----------------------------------------------------------------------------------------------------
+2022-01-05 18:47:03,287 EPOCH 10 done: loss 108.2147 - lr 0.0000000
+2022-01-05 18:47:35,745 DEV : loss 0.21968764066696167 - f1-score (micro avg)  0.9008
+2022-01-05 18:47:37,227 BAD EPOCHS (no improvement): 4
+2022-01-05 18:47:38,060 ----------------------------------------------------------------------------------------------------
+2022-01-05 18:47:38,061 Testing using last state of model ...
+2022-01-05 18:47:58,604 0.5233116323293563	0.8789514487512428	0.8817182377479491
+2022-01-05 18:47:58,605 AVG: mse: 0.5233 - mae: 0.4792 - pearson: 0.8817 - spearman: 0.8790
+2022-01-05 18:47:58,605 ----------------------------------------------------------------------------------------------------

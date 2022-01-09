@@ -1,0 +1,4 @@
+Placeholder file replacing the input file "laptops.json".
+
+"laptops.json" contains a list of dictionaries where each dict is a review and has an attribute "text" containing the
+reviews text content as well as an attribute "rating" which containing an integer between 1 and 5.
