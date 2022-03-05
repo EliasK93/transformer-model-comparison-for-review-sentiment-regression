@@ -46,3 +46,10 @@ The maximum number of training epochs for each model was set to 10.
 ##### - pip
   - `flair`
   - `ujson`
+
+<br>
+
+### Notes
+
+The uploaded versions of the training data in this repository are cut off after the first 50 rows of each file, the 
+real training data contains a combined 10.000 rows. The trained model files `final-model.pt` for each model are omitted in this repository.
